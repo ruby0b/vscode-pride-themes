@@ -1,0 +1,40 @@
+{
+    "name": "pride-themes",
+    "displayName": "Pride Themes",
+    "publisher": "ruby0b",
+    "icon": "icons/new-pride-flag-circular.png",
+    "license": "GPL-3.0-or-later",
+    "repository": {
+        "url": "https://github.com/ruby0b/vscode-pride-themes"
+    },
+    "bugs": {
+        "url": "https://github.com/ruby0b/vscode-pride-themes/issues"
+    },
+    "description": "Themes based on pride flags",
+    "version": "0.3.3",
+    "engines": {
+        "vscode": "^1.40.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Trans Pride Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/trans-pride-dark.json"
+            },
+            {
+                "label": "Trans Pride Light",
+                "uiTheme": "vs",
+                "path": "./themes/trans-pride-light.json"
+            },
+            {
+                "label": "Non-Binary Pride Dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/non-binary-pride-dark.json"
+            }
+        ]
+    }
+}
