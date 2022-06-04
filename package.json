@@ -11,7 +11,14 @@
         "url": "https://github.com/ruby0b/vscode-pride-themes/issues"
     },
     "description": "Themes based on pride flags",
-    "version": "0.3.4",
+    "version": "0.4.0",
+    "keywords": [
+        "vscode",
+        "pride",
+        "theme",
+        "trans",
+        "non-binary"
+    ],
     "engines": {
         "vscode": "^1.40.0"
     },
