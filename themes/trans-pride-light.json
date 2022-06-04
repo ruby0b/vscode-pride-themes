@@ -4,7 +4,7 @@
     "include": "./default-light-plus.json",
     "tokenColors": [
         {
-            // Vivid Sky Blue (trans flag)
+            "name": "Vivid Sky Blue (trans flag)",
             "scope": [
                 // String interpolation
                 "punctuation.definition.template-expression.begin",
@@ -39,7 +39,6 @@
                 "constant.character",
                 "markup.bold",
                 "markup.heading",
-
                 // Control flow / Special keywords
                 "keyword.control",
                 "source.cpp keyword.operator.new",
@@ -47,7 +46,6 @@
                 "keyword.other.using",
                 "keyword.other.operator",
                 "entity.name.operator",
-
                 // Other
                 "entity.other.attribute-name",
                 "meta.structure.dictionary.key.python",
@@ -64,14 +62,17 @@
                 "support.variable",
                 "entity.name.variable",
                 // Object keys, TS grammar specific
-                "meta.object-literal.key"
+                "meta.object-literal.key",
+                // Constants and enums
+                "variable.other.constant",
+                "variable.other.enummember",
             ],
             "settings": {
-                "foreground": "#55cdfc"
-            }
+                "foreground": "#55cdfc",
+            },
         },
         {
-            // Cherry Blossom Pink (trans flag)
+            "name": "Cherry Blossom Pink (trans flag)",
             "scope": [
                 // Function declarations
                 "entity.name.function",
@@ -81,14 +82,14 @@
                 "entity.name.operator.custom-literal",
                 // Other
                 "keyword.operator.or.regexp",
-                "keyword.control.anchor.regexp"
+                "keyword.control.anchor.regexp",
             ],
             "settings": {
-                "foreground": "#f7a8b8"
-            }
+                "foreground": "#f7a8b8",
+            },
         },
         {
-            // White (trans flag)
+            "name": "White (trans flag)",
             "scope": [
                 // Reset JavaScript string interpolation expression
                 "meta.template.expression",
@@ -97,21 +98,20 @@
                 "variable.language.wildcard.java",
                 "storage.modifier.package.java",
                 // Other
-                "keyword.operator",
                 "meta.embedded",
                 "source.groovy.embedded",
                 // Variable and parameter name
                 "variable",
                 "meta.definition.variable.name",
                 "support.variable",
-                "entity.name.variable"
+                "entity.name.variable",
             ],
             "settings": {
-                "foreground": "#000000"
-            }
+                "foreground": "#000000",
+            },
         },
         {
-            // Violet Web
+            "name": "Violet Web",
             "scope": [
                 // Types declaration and references
                 "meta.return-type",
@@ -153,14 +153,16 @@
                 "support.constant.math",
                 "support.constant.dom",
                 "support.constant.json",
-                "entity.other.inherited-class"
+                "entity.other.inherited-class",
+                // Added by me
+                "keyword.operator",
             ],
             "settings": {
-                "foreground": "#ee82ee"
-            }
+                "foreground": "#ee82ee",
+            },
         },
         {
-            // Emerald (green)
+            "name": "Emerald (green)",
             "scope": [
                 "markup.inline.raw",
                 "meta.preprocessor.string",
@@ -183,27 +185,27 @@
                 "punctuation.character.set.begin.regexp",
                 "punctuation.character.set.end.regexp",
                 "keyword.operator.negation.regexp",
-                "support.other.parenthesis.regexp"
+                "support.other.parenthesis.regexp",
             ],
             "settings": {
-                "foreground": "#50c878"
-            }
+                "foreground": "#50c878",
+            },
         },
         {
-            // Illuminating Emerald (darker green)
+            "name": "Illuminating Emerald (darker green)",
             "scope": [
                 "string.regexp",
                 "constant.character.character-class.regexp",
                 "constant.other.character-class.set.regexp",
                 "constant.other.character-class.regexp",
-                "constant.character.set.regexp"
+                "constant.character.set.regexp",
             ],
             "settings": {
-                "foreground": "#319117"
-            }
+                "foreground": "#319117",
+            },
         },
         {
-            // Medium Aquamarine (lighter green)
+            "name": "Medium Aquamarine (lighter green)",
             "scope": [
                 "entity.name.tag.css",
                 "entity.other.attribute-name.class.css",
@@ -221,21 +223,23 @@
                 "keyword.operator.lookahead.negative.regexp",
                 "keyword.operator.lookbehind.regexp",
                 "keyword.operator.lookbehind.negative.regexp",
-                "keyword.operator.disjunction.regexp"
+                "keyword.operator.disjunction.regexp",
             ],
             "settings": {
-                "foreground": "#66ddaa"
-            }
+                "foreground": "#66ddaa",
+            },
         },
         {
-            // Rhythm (grey)
-            "scope": "comment",
+            "name": "Rhythm (grey)",
+            "scope": [
+                "comment",
+            ],
             "settings": {
-                "foreground": "#777696"
-            }
+                "foreground": "#777696",
+            },
         },
         {
-            // Light Cornflower Blue
+            "name": "Light Cornflower Blue",
             "scope": [
                 "constant.numeric",
                 "keyword.operator.plus.exponent",
@@ -243,17 +247,18 @@
                 "markup.inserted",
                 "meta.preprocessor.numeric",
                 "keyword.other.unit",
-                "constant.sha.git-rebase"
+                "constant.sha.git-rebase",
             ],
             "settings": {
-                "foreground": "#93ccea"
-            }
-        }
+                "foreground": "#93ccea",
+            },
+        },
     ],
     "semanticTokenColors": {
         "newOperator": "#55cdfc",
         "stringLiteral": "#50c878",
         "customLiteral": "#f7a8b8",
-        "numberLiteral": "#93ccea"
-    }
+        "numberLiteral": "#93ccea",
+        "*.decorator": "#f7a8b8",
+    },
 }
