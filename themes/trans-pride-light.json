@@ -1,4 +1,5 @@
 {
+    "$schema": "vscode://schemas/color-theme",
     "name": "Trans Pride Light",
     "include": "./default-light-plus.json",
     "tokenColors": [

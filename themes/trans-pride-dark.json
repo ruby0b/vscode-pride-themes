@@ -1,4 +1,5 @@
 {
+    "$schema": "vscode://schemas/color-theme",
     "name": "Trans Pride Dark",
     "include": "./default-dark-plus.json",
     "colors": {
@@ -66,7 +67,11 @@
                 "support.variable",
                 "entity.name.variable",
                 // Object keys, TS grammar specific
-                "meta.object-literal.key"
+                "meta.object-literal.key",
+
+                // Constants and enums
+                "variable.other.constant",
+                "variable.other.enummember"
             ],
             "settings": {
                 "foreground": "#55cdfc"
@@ -99,7 +104,6 @@
                 "variable.language.wildcard.java",
                 "storage.modifier.package.java",
                 // Other
-                "keyword.operator",
                 "meta.embedded",
                 "source.groovy.embedded",
                 // Variable and parameter name
@@ -155,7 +159,9 @@
                 "support.constant.math",
                 "support.constant.dom",
                 "support.constant.json",
-                "entity.other.inherited-class"
+                "entity.other.inherited-class",
+                // Added by me
+                "keyword.operator"
             ],
             "settings": {
                 "foreground": "#ee82ee"
@@ -256,6 +262,7 @@
         "newOperator": "#55cdfc",
         "stringLiteral": "#50c878",
         "customLiteral": "#f7a8b8",
-        "numberLiteral": "#93ccea"
+        "numberLiteral": "#93ccea",
+        "*.decorator": "#f7a8b8"
     }
 }

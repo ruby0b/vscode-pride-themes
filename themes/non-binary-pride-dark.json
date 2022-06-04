@@ -1,4 +1,5 @@
 {
+    "$schema": "vscode://schemas/color-theme",
     "name": "Non-Binary Pride Dark",
     "include": "./default-dark-plus.json",
     "colors": {
@@ -66,7 +67,10 @@
                 "support.variable",
                 "entity.name.variable",
                 // Object keys, TS grammar specific
-                "meta.object-literal.key"
+                "meta.object-literal.key",
+                // Constants and enums
+                "variable.other.constant",
+                "variable.other.enummember",
             ],
             "settings": {
                 "foreground": "#9b59d0"
@@ -239,23 +243,33 @@
         {
             // Bright Lilac (light purple)
             "scope": [
+                "keyword.operator",
+            ],
+            "settings": {
+                "foreground": "#d891ef"
+            }
+        },
+        {
+            // Banana Mania (light yellow)
+            "scope": [
                 "constant.numeric",
                 "keyword.operator.plus.exponent",
                 "keyword.operator.minus.exponent",
                 "markup.inserted",
                 "meta.preprocessor.numeric",
                 "keyword.other.unit",
-                "constant.sha.git-rebase"
+                "constant.sha.git-rebase",
             ],
             "settings": {
-                "foreground": "#d891ef"
-            }
-        }
+                "foreground": "#FAE7B5",
+            },
+        },
     ],
     "semanticTokenColors": {
         "newOperator": "#9b59d0",
         "stringLiteral": "#50c878",
         "customLiteral": "#fff433",
-        "numberLiteral": "#d891ef"
+        "numberLiteral": "#FAE7B5",
+        "*.decorator": "#fff433"
     }
 }
