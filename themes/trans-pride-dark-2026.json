@@ -160,7 +160,7 @@
         "peekViewTitleDescription.foreground": "#8C8C8C",
         "peekViewTitleLabel.foreground": "#bfbfbf",
         "editorGutter.background": "#121314",
-        "editorGutter.addedBackground": "#72C892",
+        "editorGutter.addedBackground": "#F7A8B8", // #72C892 -> #F7A8B8
         "editorGutter.deletedBackground": "#F28772",
         "diffEditor.insertedLineBackground": "#347d3926",
         "diffEditor.insertedTextBackground": "#57ab5a4d",
@@ -169,7 +169,7 @@
         "editorOverviewRuler.border": "#2A2B2C",
         "editorOverviewRuler.findMatchForeground": "#55CDFC99", // #3a94bc99 -> #55CDFC99
         "editorOverviewRuler.modifiedForeground": "#55CDFC", // #6ab890 -> #55CDFC
-        "editorOverviewRuler.addedForeground": "#73c991",
+        "editorOverviewRuler.addedForeground": "#F7A8B8", // #73c991 -> #F7A8B8
         "editorOverviewRuler.deletedForeground": "#f48771",
         "editorOverviewRuler.errorForeground": "#f48771",
         "editorOverviewRuler.warningForeground": "#e5ba7d",
@@ -249,10 +249,10 @@
         "terminal.tab.activeBorder": "#55CDFC00", // #3994BC00 -> #55CDFC00
         "terminalCursor.foreground": "#F7A8B8", // #bfbfbf -> #F7A8B8
         "terminalCursor.background": "#191A1B",
-        "gitDecoration.addedResourceForeground": "#73c991",
+        "gitDecoration.addedResourceForeground": "#F7A8B8", // #73c991 -> #F7A8B8
         "gitDecoration.modifiedResourceForeground": "#e5ba7d",
         "gitDecoration.deletedResourceForeground": "#f48771",
-        "gitDecoration.untrackedResourceForeground": "#73c991",
+        "gitDecoration.untrackedResourceForeground": "#F7A8B8", // #73c991 -> #F7A8B8
         "gitDecoration.ignoredResourceForeground": "#8C8C8C",
         "gitDecoration.conflictingResourceForeground": "#f48771",
         "gitDecoration.stageModifiedResourceForeground": "#e5ba7d",
