@@ -33,6 +33,11 @@
                 "path": "./themes/trans-pride-dark.json"
             },
             {
+                "label": "Trans Pride Dark 2026",
+                "uiTheme": "vs-dark",
+                "path": "./themes/trans-pride-dark-2026.json"
+            },
+            {
                 "label": "Trans Pride Light",
                 "uiTheme": "vs",
                 "path": "./themes/trans-pride-light.json"
