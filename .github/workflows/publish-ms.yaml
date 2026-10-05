@@ -11,7 +11,7 @@ jobs:
         steps:
             - uses: actions/checkout@v5
             - uses: actions/setup-node@v5
-            - run: npm ci
+            - run: npm install
             - name: Publish to Visual Studio Marketplace
               uses: HaaLeo/publish-vscode-extension@v2
               id: publish

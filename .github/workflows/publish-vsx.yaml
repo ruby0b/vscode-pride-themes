@@ -15,5 +15,5 @@ jobs:
         steps:
             - uses: actions/checkout@v5
             - uses: actions/setup-node@v5
-            - run: npm ci
+            - run: npm install
             - run: npx ovsx publish --trusted-publishing
