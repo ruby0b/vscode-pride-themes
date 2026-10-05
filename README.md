@@ -6,7 +6,7 @@ Suggestions and contributions for other flags are welcome: https://github.com/ru
 ![Trans Pride Dark Theme](https://raw.githubusercontent.com/ruby0b/vscode-pride-themes/main/examples/trans-pride-dark.png)
 
 ## Trans Pride Dark 2026
-![Trans Pride Dark 2026 Theme](./examples/trans-pride-dark-2026.png)
+![Trans Pride Dark 2026 Theme](https://raw.githubusercontent.com/ruby0b/vscode-pride-themes/main/examples/trans-pride-dark-2026.png)
 
 ## Trans Pride Light
 This one might not be legible enough as it's using the exact same colors as the dark theme for now.

@@ -1,7 +1,7 @@
 # Change Log
 
-## [Unreleased]
-- add Trans Pride Dark 2026 theme, based on VS Code's 2026 Dark
+## [0.5.0]
+- add Trans Pride Dark 2026 theme, based on VS Code's 2026 Dark (thanks to https://github.com/cryshado)
 
 ## [0.4.0]
 - make operators more colorful
