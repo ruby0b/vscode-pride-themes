@@ -1,0 +1,19 @@
+on:
+    push:
+        tags:
+            - "v*"
+    workflow_dispatch:
+
+permissions:
+    contents: read
+    id-token: write
+
+name: Publish to Open VSX
+jobs:
+    publish:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v5
+            - uses: actions/setup-node@v5
+            - run: npm ci
+            - run: npx ovsx publish --trusted-publishing
